@@ -1,0 +1,52 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #EDEFEE;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3 rem;
+}
+
+h2{
+    font-size: 2 rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 15rem;
+    align-content: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section{
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+div > img{ 
+    size: 5rem;
+}
